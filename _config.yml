@@ -21,6 +21,8 @@ tagline: Write-up & Insights from TryHackMe & HackTheBox # it will display as th
 description: >- # used by seo meta and the atom feed
   This blog serves as a collection of my write-ups, documenting my cybersecurity journey.
 
+math: true
+
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
 url: "https://CyberWo9f-xD.github.io"
