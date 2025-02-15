@@ -222,7 +222,7 @@ uid=1000(tyler) gid=1000(tyler) groups=1000(tyler),
 4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),110(lxd)
 tyler@silver-platter:~$ 
 ````
-This user has unrestricted sudo privileges, allowing them to execute any command as root. With a simple `sudo su`, I elevate privileges to `root`.
+This user has unrestricted sudo privileges, allowing to execute any command as root. With a simple `sudo su`, I elevate privileges to `root`.
 ````shell
 tyler@silver-platter:~$ sudo su
 [sudo] password for tyler:
@@ -232,7 +232,7 @@ root@silver-platter:~# cat root.txt
 ````
 Navigating to the `/root/` directory, I finally retrieve the **root flag**,
 ![SilverplatterSolved.png](Assets/Pictures/SilverPlatter/SilverplatterSolved.png)
-completing the [Silver-Platter](https://tryhackme.com/room/silverplatter) room!
+& Completed the [Silver-Platter](https://tryhackme.com/room/silverplatter) room!
 
 ---
 
