@@ -4,7 +4,7 @@ icon: far fa-user
 order: 1
 ---
 
-![image description](Assets/Pictures/Cyb3rWo9f-xD.png)
+![image description](/Assets/Pictures/voidseeker.gif)
 
 ### **Hello Friend !**
 
