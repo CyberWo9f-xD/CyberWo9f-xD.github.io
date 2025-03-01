@@ -276,6 +276,8 @@ root@cyprusbank:~# cat root.txt
 ![challenge-whiterose-solved.png](Assets/Pictures/whiterose/challenge-whiterose-solved.png)
 I have **successfully** completed the [Whiterose](https://tryhackme.com/room/whiterose) **challenge!**
 
+---
+
 ## Happy hacking !
 In this **challenge**, I discovered **admin panel** through **subdomain** enumeration & exploited an **IDOR** vulnerability to access `sensitive data`, leading to **admin credentials**. Using **SSTI**, I gained **RCE** and established a `shell`.
 
