@@ -90,7 +90,7 @@ By setting the parameter value to `0`, we discover the credentials of an admin u
 
 ---
 
-## Web Access adsGayle Bev
+## Web Access Gayle Bev
 Now that we have **Gayle Bev** credentials, let's log in & explore further.
 ![logged-in-as-Gayle.png](Assets/Pictures/whiterose/logged-in-as-Gayle.png)
 logged in as **Gayle Bev**.
