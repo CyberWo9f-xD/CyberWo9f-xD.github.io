@@ -280,14 +280,7 @@ I have **successfully** completed the [Whiterose](https://tryhackme.com/room/whi
 
 ## Happy hacking !
 In this **challenge**, I discovered **admin panel** through **subdomain** enumeration & exploited an **IDOR** vulnerability to access `sensitive data`, leading to **admin credentials**. Using **SSTI**, I gained **RCE** and established a `shell`.
-
-<div style="display: flex; justify-content: center; align-items: center; height: 60vh; background-color:rgba(175, 174, 174, 0);">
-    <div class="tenor-gif-embed" data-postid="15717036" data-share-method="host" data-aspect-ratio="1" data-width="70%">
-        <a href="https://tenor.com/view/mr-robot-smoke-cigarette-gif-15717036" style="color: #fff; text-decoration: none; font-size: 16px;">Mr Robot Smoke GIF</a> 
-        from <a href="https://tenor.com/search/mr+robot-gifs" style="color: #ffcc00; text-decoration: none; font-size: 16px;">Mr Robot GIFs</a>
-    </div>
-</div>
-<script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+![mr-robot-smoke.gif](Assets/Pictures/whiterose/mr-robot-smoke.gif)
 
 {% capture centered_text %}
 Leveraging **misconfigured sudo permissions** and 
