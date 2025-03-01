@@ -1,8 +1,8 @@
 ---
 title: Whiterose - tryhackme, ngn
-date: 2025-02-27 11:27:10 -5000
+date: 2025-02-28 11:27:10 -5000
 categories: [THM,Easy,Linux]
-tags: [RCE,Web,OSINT]
+tags: [RCE,Web,SSTI,]
 ---
 
 Yet another Mr. Robot themed challenge.
